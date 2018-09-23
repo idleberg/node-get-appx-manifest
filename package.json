@@ -1,7 +1,7 @@
 {
   "name": "get-appx-manifest",
   "version": "0.0.0",
-  "description": "Returns the manifest of a Windows Store app (Appx)",
+  "description": "Returns the manifest of a Windows Store app (Appx) as JavaScript object",
   "license": "MIT",
   "scripts": {
     "test": "eslint index.js"

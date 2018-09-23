@@ -5,7 +5,7 @@
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/node-get-appx-manifest)](https://circleci.com/gh/idleberg/node-get-appx-manifest)
 [![David](https://flat.badgen.net/david/dev/idleberg/node-get-appx-manifest)](https://david-dm.org/idleberg/node-get-appx-manifest?type=dev)
 
-Returns the manifest of a Windows Store app (Appx)
+Returns the manifest of a Windows Store app (Appx) as JavaScript object
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ This library requires PowerShell 5.0 (or higher) and a Windows version with supp
 
 ## Usage
 
-`getAppxManifest(appID: string, options: Object)`
+`getAppxManifest(appID: string)`
 
 Example usage in script:
 
