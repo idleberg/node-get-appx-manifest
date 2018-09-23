@@ -12,7 +12,7 @@ const parseOpts = {
 
 module.exports = (appID, options) => {
     if (platform() !== 'win32') {
-        throw 'Error: Not a Windows operating system';
+        throw 'Error: This library requires PowerShell 5.0 (or higher) and for the Windows Store';
     }
 
     options = Object.assign({

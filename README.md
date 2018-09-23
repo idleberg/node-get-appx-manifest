@@ -5,11 +5,11 @@
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/node-get-appx-manifest)](https://circleci.com/gh/idleberg/node-get-appx-manifest)
 [![David](https://flat.badgen.net/david/dev/idleberg/node-get-appx-manifest)](https://david-dm.org/idleberg/node-get-appx-manifest?type=dev)
 
-Returns the manifest of a Windows Store app (Appx) as JavaScript object
+Returns the manifest of a Windows Store application (Appx) as JavaScript object
 
 ## Prerequisites
 
-This library requires PowerShell 5.0 (or higher) and a Windows version with support for Windows Store apps
+This library requires PowerShell 5.0 (or higher) and for the Windows Store
 
 ## Installation
 
@@ -38,8 +38,9 @@ const appID = 'SpotifyAB.SpotifyMusic';
 
 ## Related
 
-- [exec-appx](https://github.com/idleberg/node-exec-appx)
-- [get-appx-path](https://github.com/idleberg/node-get-appx-path)
+
+- [exec-appx](https://www.npmjs.com/package/exec-appx)
+- [get-appx-path](https://www.npmjs.com/package/get-appx-path)
 
 ## License
 
