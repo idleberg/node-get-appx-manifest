@@ -1,0 +1,28 @@
+{
+  "name": "get-appx-manifest",
+  "version": "0.0.0",
+  "description": "Returns the manifest of a Windows Store app (Appx)",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idleberg/node-get-appx-manifest.git"
+  },
+  "keywords": [
+    "appx",
+    "windows store",
+    "windows store app",
+    "microsoft store",
+    "universal windows platform"
+  ],
+  "dependencies": {
+    "node-powershell": "^3.3.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
