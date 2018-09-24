@@ -17,7 +17,7 @@ This library requires PowerShell 5.0 (or higher) and for the Windows Store
 
 ## Usage
 
-`getAppxManifest(appID: string)`
+`getAppxManifest(appID: string, options: Object)`
 
 Example usage in script:
 
@@ -36,8 +36,33 @@ const appID = 'SpotifyAB.SpotifyMusic';
 })();
 ```
 
-## Related
+### Options
 
+#### options.inputEncoding
+
+Default: `utf8`
+
+#### options.outputEncoding
+
+Default: `utf8`
+
+#### options.debugMsg
+
+Default: `false`
+
+#### options.verbose
+
+Default: `true`
+
+#### options.executionPolicy
+
+Default: `Bypass`
+
+#### options.noProfile
+
+Default: `true`
+
+## Related
 
 - [exec-appx](https://www.npmjs.com/package/exec-appx)
 - [get-appx-path](https://www.npmjs.com/package/get-appx-path)
