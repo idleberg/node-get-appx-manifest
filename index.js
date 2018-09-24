@@ -7,6 +7,7 @@ const { promisify } = require('util');
 
 const parseString = promisify(xml2js.parseString);
 const parseOpts = {
+    explicitArray: false,
     mergeAttrs: true
 };
 
