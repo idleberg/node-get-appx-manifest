@@ -9,7 +9,7 @@ Returns the manifest of a Windows Store application (Appx) as JavaScript object
 
 ## Prerequisites
 
-This library requires PowerShell 5.0 (or higher) and for the Windows Store
+This library requires PowerShell 5.0 (or higher) and support for the Windows Store
 
 ## Installation
 
