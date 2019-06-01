@@ -11,3 +11,9 @@ types/
 gulpfile.js
 tsconfig.json
 tslint.json
+
+# project specific
+AppxManifest.*
+test.js
+test.ts
+todo.md
