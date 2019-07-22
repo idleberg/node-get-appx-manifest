@@ -20,11 +20,11 @@
     "universal windows platform"
   ],
   "dependencies": {
-    "node-powershell": "^3.3.1",
+    "node-powershell": "^4.0.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "husky": "^1.0.0"
+    "eslint": "^6.1.0",
+    "husky": "^3.0.1"
   }
 }
