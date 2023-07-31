@@ -3,7 +3,6 @@
 [![npm](https://flat.badgen.net/npm/license/get-appx-manifest)](https://www.npmjs.org/package/get-appx-manifest)
 [![npm](https://flat.badgen.net/npm/v/get-appx-manifest)](https://www.npmjs.org/package/get-appx-manifest)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/node-get-appx-manifest)](https://circleci.com/gh/idleberg/node-get-appx-manifest)
-[![David](https://flat.badgen.net/david/dev/idleberg/node-get-appx-manifest)](https://david-dm.org/idleberg/node-get-appx-manifest?type=dev)
 
 Returns the manifest of a Windows Store application (Appx) as JavaScript object
 
